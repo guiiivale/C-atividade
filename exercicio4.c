@@ -30,9 +30,7 @@ int main() {
     if(inteiro1 > inteiro2 && inteiro1 > inteiro3) {
         printf("O maior numero é o primeiro\n");
         maiorNumero = inteiro1;
-        if(inteiro2 < inteiro3) {
-            menorNumero = inteiro2;
-        }
+        menorNumero = inteiro2;
         if(inteiro2 > inteiro3) {
             menorNumero = inteiro3;
         }
@@ -41,9 +39,7 @@ int main() {
     if(inteiro2 > inteiro1 && inteiro2 > inteiro3) {
         printf("O maior numero é o segundo\n");
         maiorNumero = inteiro2;
-        if(inteiro1 < inteiro3) {
-            menorNumero = inteiro1;
-        }
+        menorNumero = inteiro1;
         if(inteiro1 > inteiro3) {
             menorNumero = inteiro3;
         }
@@ -52,9 +48,7 @@ int main() {
     if(inteiro3 > inteiro1 && inteiro3 > inteiro2) {
         printf("O maior numero é o terceiro\n");
         maiorNumero = inteiro3;
-        if(inteiro2 < inteiro1) {
-            menorNumero = inteiro2;
-        }
+        menorNumero = inteiro2;
         if(inteiro2 > inteiro1) {
             menorNumero = inteiro1;
         }
